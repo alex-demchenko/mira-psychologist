@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="ua">
       <body className={cn("bg-orange-200", inter.className)}>
-        <header className="mx-auto mt-6 max-w-[1200px] flex justify-between">
+        <header className="mx-auto mt-6 px-4 max-w-[1200px] flex justify-between">
           <div>@mira_koda</div>
           <div className="flex gap-4">
             <div>Обо мне</div>
