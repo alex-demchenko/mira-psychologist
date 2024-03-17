@@ -4,10 +4,10 @@ export default function HeaderItems() {
   return (
     <>
       <div className="flex flex-col md:flex-row gap-4">
-        <Link href="#about">Обо мне</Link>
-        <Link href="#problems">С чем работаю</Link>
-        <Link href="#reviews">Отзывы</Link>
-        <Link href="#price">Стоимость</Link>
+        <Link href="#about">Про мене</Link>
+        <Link href="#problems">З чим працюю</Link>
+        <Link href="#reviews">Відгуки</Link>
+        <Link href="#price">Вартість</Link>
       </div>
 
       <div>

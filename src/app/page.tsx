@@ -6,7 +6,7 @@ export default function Home() {
     <main className="mx-auto px-6 max-w-[1200px]">
       <section className="py-4">
         <div className={cn("mt-[140px] mb-4 text-8xl", headerFont.className)}>
-          <p>Мира</p>
+          <p>Міра</p>
           <p>Кода</p>
         </div>
 
@@ -25,37 +25,37 @@ export default function Home() {
 
       <section id="about" className="py-6 h-[600px]">
         <h2 className={cn("text-4xl", headerFont.className)}>
-          Давайте познакомимся
+          Давайте познайомимось
         </h2>
       </section>
 
       <section id="problems" className="py-6 h-[600px]">
         <h2 className={cn("text-4xl", headerFont.className)}>
-          Какие проблемы решаю
+          Які проблеми вирішую
         </h2>
       </section>
 
       <section className="py-6 h-[600px]">
         <h2 className={cn("text-4xl", headerFont.className)}>
-          Мне важно помочь Вам найти свой путь и показать новые стратегии
+          Мені важливо допомогти Вам знайти свій шлях та показати нові стратегії
         </h2>
       </section>
 
       <section className="py-6 h-[600px]">
         <h2 className={cn("text-4xl", headerFont.className)}>
-          Важно не просто любить свое дело, а быть в этом профессионалом
+          Важливо не просто любити свою справу, а бути у цьому професіоналом
         </h2>
       </section>
 
       <section id="reviews" className="py-6 h-[600px]">
         <h2 className={cn("text-4xl", headerFont.className)}>
-          Ваша обратная связь и искренние эмоции{" "}
+          Ваш зворотний зв'язок та щирі емоції
         </h2>
       </section>
 
       <section id="price" className="py-6 h-[600px]">
         <h2 className={cn("text-4xl", headerFont.className)}>
-          Записаться на консультацию
+          Записатися на консультацію
         </h2>
       </section>
     </main>
