@@ -26,7 +26,7 @@ export default function HeaderMobile(props: Props) {
       {open && (
         <div className="relative">
           <div
-            className="px-4 py-4 absolute -left-4 -right-4 bg-orange-500 shadow-lg"
+            className="px-4 py-4 absolute -left-4 -right-4 bg-orange-200 shadow-lg"
             onClick={() => setOpen(false)}
           >
             <HeaderItems />

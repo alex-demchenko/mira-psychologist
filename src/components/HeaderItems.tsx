@@ -3,11 +3,19 @@ import Link from "next/link";
 export default function HeaderItems() {
   return (
     <>
-      <div className="flex flex-col md:flex-row gap-4">
-        <Link href="#about">Про мене</Link>
-        <Link href="#problems">З чим працюю</Link>
-        <Link href="#reviews">Відгуки</Link>
-        <Link href="#price">Вартість</Link>
+      <div className="mb-4 md:mb-0 flex flex-col md:flex-row gap-5">
+        <Link href="#about" className="text-xl md:text-base hover:underline">
+          Про мене
+        </Link>
+        <Link href="#problems" className="text-xl md:text-base hover:underline">
+          З чим працюю
+        </Link>
+        <Link href="#reviews" className="text-xl md:text-base hover:underline">
+          Відгуки
+        </Link>
+        <Link href="#price" className="text-xl md:text-base hover:underline">
+          Вартість
+        </Link>
       </div>
 
       <div>
