@@ -49,7 +49,7 @@ export default function Home() {
 
       <section id="reviews" className="py-6 h-[600px]">
         <h2 className={cn("text-4xl", headerFont.className)}>
-          Ваш зворотний зв'язок та щирі емоції
+          Ваш зворотний зв&apos;язок та щирі емоції
         </h2>
       </section>
 
