@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/utils/cn";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,11 +21,10 @@ export default function RootLayout({
         <header className="mx-auto mt-6 px-4 max-w-[1200px] flex justify-between">
           <div>@mira_koda</div>
           <div className="flex gap-4">
-            <div>Обо мне</div>
-            <div>С чем работаю</div>
-            <div>Видео</div>
-            <div>Отзывы</div>
-            <div>Стоимость</div>
+            <Link href="#about">Обо мне</Link>
+            <Link href="#problems">С чем работаю</Link>
+            <Link href="#reviews">Отзывы</Link>
+            <Link href="#price">Стоимость</Link>
           </div>
           <div>
             <a href="https://t.me/mira_koda">
@@ -48,6 +48,8 @@ export default function RootLayout({
         </header>
 
         {children}
+
+        <footer className="h-[200px] bg-gray-200"></footer>
       </body>
     </html>
   );
