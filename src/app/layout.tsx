@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
-
-const inter = Inter({ subsets: ["latin"] });
+import { inter } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Mira Koda",
